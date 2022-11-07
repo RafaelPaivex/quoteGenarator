@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.containerDefault{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    min-height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.line{
+    background-color: #f7df94;
+    min-width: 10px;
+    max-width: 10px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.mainAuthor{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    width: 75%;
+}
+
+.author{
+    width: 75%;
+    height: 151px;
+    color: #4F4F4F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.author p {
+    margin-left: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author p svg{
+    margin-right: 40px;
+}
+
+.author:hover{
+    background-color: #333333;
+    color: white;
+}
+
+.generate button{
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+}
+
+.titleAuthor{
+    color: #333333;
+}
+
+.containerAuthor{
+    height: auto;
+    margin: 0px 100px auto 100px;
+}
+
+.titleAuthor{
+    margin-bottom: 140px;
+    margin-top: 140px;
+}
+
+.contentAuthor{
+    margin-bottom: 140px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+    height: 40px;
+    min-height: 100px;
+}
+
+.contentAuthor p{
+    max-width: 614px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .main{
+        width: 90%;
+    }
+
+    .author:hover{
+        background-color: #333333;
+        color: white;
+    }
+
+    .containerAuthor{
+        width: auto;
+        height: auto;
+    }
+
+    .contentAuthor{
+        height: auto;
+        width: 100%;
+    }
+
+    .line{
+        width: 10px;
+        min-height: 200px;
+        max-height: auto;
+    }
+
+  }
